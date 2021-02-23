@@ -1,3 +1,6 @@
 module.exports = {
-    devtool: false
+    mode: 'production',
+    optimization: {
+        minimize: false
+    }
 }
